@@ -1,0 +1,6 @@
+elasticsearch~=8.15.0
+pandas
+nltk
+textblob
+fastapi
+uvicorn

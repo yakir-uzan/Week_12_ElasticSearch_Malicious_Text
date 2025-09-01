@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d9d2ab1-9bfc-4fae-b538-bcfb8ad7b057" name="Changes" comment="" />
+    <list default="true" id="9d9d2ab1-9bfc-4fae-b538-bcfb8ad7b057" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/deleter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/indexer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tweets_injected.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/weapons.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/es_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/napping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,11 +62,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.analyzer.executor": "Run",
+    "Python.client.executor": "Run",
     "Python.elastic.executor": "Run",
     "Python.load_file.executor": "Run",
+    "Python.loader.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.textanalyzer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "client",
+    "git-widget-placeholder": "mapping",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "C:/Users/yakir/PycharmProjects/Week_12_ElasticSearch_Malicious_Text/data"
   }
@@ -62,6 +84,35 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yakir\PycharmProjects\Week_12_ElasticSearch_Malicious_Text\app" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="analyzer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Week_12_ElasticSearch_Malicious_Text" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\yakir\PycharmProjects\Week_12_ElasticSearch_Malicious_Text\app\analyzer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.textanalyzer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
